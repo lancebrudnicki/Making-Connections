@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid red; */
+}
+
+
+.main-container{
+    width: 100%;
+
+
+}
+/* Nav-bar */
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: #333333;
+    color: whitesmoke;
+}
+.nav-bar{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-links li{
+    padding: 10px;
+    list-style-type: none;
+}
+.signout{
+    background-color: #17A2B8;
+    color: whitesmoke;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+
+}
+.col-1{
+    flex: 3;
+
+}
+.col-2{
+    flex: 2;
+}
+
+/* Profile card */
+
+.profile{
+
+    border: 2px double  grey;
+    margin-top: 20px;
+}
+.profile-content{
+    padding-left: 20px;
+    position: relative;
+    top: -30px;
+}
+.header-profile{
+background-color: #17A2B8;
+height: 50px;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 80px;
+}
+.icon{
+    height: 15px;
+    width: 15px;
+}
+.loc{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+/* education card */
+.education {
+    border: 2px double  grey;
+    margin-top: 20px;
+}
+.education-header {  
+    background: #333333;
+    padding: 8px 20px;
+}
+.education-content {
+    padding: 5px 20px;
+}
+/* connections requests */
+.connections-requests{
+    border: 2px double grey;
+    margin: 20px 10px 10px 20px;
+}
+.num-req{
+    background-color: grey;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    padding: 6px;
+    color: black;
+    margin: 10px;
+}
+.connections-header{
+    background-color: #333333;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+}
+
+.icon-pic{
+    width: 35px;
+    border-radius: 50%;
+}
+.icon-1,.icon-2{
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.line1, .line2, .line3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+/* your connections */
+.your-connections{
+    border: 2px double grey;
+    margin: 20px 10px 10px 20px;
+
+}
+.your-connections-header{
+    background-color: #333333;
+    height: 40px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+}
+
+.link-view{
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+
+
+
+
+
+

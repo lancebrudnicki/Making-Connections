@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Connections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-container">
+    <header>
+        <nav class="nav-bar">
+            <h1>Profile</h1>
+            <ul class="nav-links">
+                <li><a href=""> Home</a></li>
+                <li></li><strong><a href=""> My Profile</a></strong></li>
+                <li></li><a href=""> Find Connections</a></li>
+                <li></li><button class="signout" onclick="signout()">Sign Out</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+        <section class="col-1">
+            <div class="profile">
+                <div class="header-profile"></div>
+                <div class="profile-content">
+                    <img class="profile-pic"src="img\arry-s.jpg" alt="profile">
+                    <h1>Jane Doe</h1>
+                    <div class="loc">
+                        <img class="icon" src="img\icons\map-marker.png">
+                        <h1>Seattle</h1>
+                    </div>
+                    <p>Developer | Engineer | Problem Solver Master of Shadows and the Internet!</p>
+                    <div class="loc">
+                        <img class="icon" src="img\icons\gear.png" alt="gear">
+                        <a href="">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                <div class="education-header">
+                    <h1>Education</h1>
+                </div>
+                <div class="education-content">
+                    <h1>Coding Dojo - Full Stack BootCamp</h1>
+                    <h4>Dec 2019 - mar 2020</h4>
+                    <h4>Triple Black belt in Python, MERN, and C#..</h4>
+                </div>
+            </div>
+        </section>
+        <section class="col-2">
+            <div class="connections-requests">
+                <h1 class="connections-header"><span class="num-req">2</span>Connection Requests</h1>
+            <div class="connection-req">
+                <div class="con-req">
+                    <div class="line1">
+                        <img class="icon-pic"src="img\arry-s.jpg" alt="profile">
+                        <h1> Todd E</h1>
+                        <img class="icon-1" onclick="disappear(1),add()" src="img\icons\accept-circle.png">
+                        <img class="icon-2" onclick="disappear(1)" src="img\icons\close-circle.png">
+                    </div>
+                    <div class="line2">
+                        <img class="icon-pic"src="img\arry-s.jpg" alt="profile">
+                        <h1> Phil K</h1>
+                        <img class="icon-1" onclick="disappear(2)" src="img\icons\accept-circle.png">
+                        <img class="icon-2" onclick="disappear(2)" src="img\icons\close-circle.png">
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="your-connections">
+                    <h1 class="your-connections-header"><span class="num-req">418</span>Your Connection</h1>
+            <div class="your-connection">
+                    <div class="your-con">
+                        <div class="line3">
+                            <img class="icon-pic"src="img\arry-s.jpg" alt="profile">
+                            <h1> Todd E</h1>
+                        </div>
+                        <div class="line3">
+                            <img class="icon-pic"src="img\arry-s.jpg" alt="profile">
+                            <h1> Phil K</h1>
+                        </div>
+                        <div class="line3">
+                            <img class="icon-pic"src="img\arry-s.jpg" alt="profile">
+                            <h1> Phil K</h1>
+                        </div>
+                        <div class="line3">
+                            <img class="icon-pic"src="img\arry-s.jpg" alt="profile">
+                            <h1> Phil K</h1>
+                        </div>
+                        <div class="link-view">
+                            <a href="" >View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
